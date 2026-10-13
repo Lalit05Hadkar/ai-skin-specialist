@@ -1,0 +1,27 @@
+# Environment variables (contains secret API keys)
+.env
+*.env
+!.env.example
+!sample.env
+
+# Virtual environments
+.venv/
+.venv*/
+env/
+venv/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated temporary audio files
+doctor_response.mp3
+output_gtts.mp3
+test-output.mp3
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
