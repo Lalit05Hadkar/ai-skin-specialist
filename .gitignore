@@ -21,6 +21,7 @@ __pycache__/
 doctor_response.mp3
 output_gtts.mp3
 test-output.mp3
+.gradio/
 
 # IDE and OS files
 .vscode/

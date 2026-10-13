@@ -599,4 +599,5 @@ with gr.Blocks(title=APP_TITLE) as iface:
 
 
 if __name__ == "__main__":
-    iface.launch(debug=True, css=CSS, theme=gr.themes.Base())
+    app, local_url, share_url = iface.launch(share=True, debug=True, css=CSS, theme=gr.themes.Base())
+    print(f"\n=====================================\nPUBLIC LIVE URL: {share_url}\n=====================================\n", flush=True)
