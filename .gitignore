@@ -1,6 +1,8 @@
 # Environment variables (contains secret API keys)
 .env
 *.env
+.env.local
+.env*.local
 !.env.example
 !sample.env
 
@@ -25,3 +27,18 @@ test-output.mp3
 .idea/
 .DS_Store
 Thumbs.db
+
+# InsForge & AI agent skills
+.insforge
+.agent
+.agents
+.augment
+.claude
+.cline
+.github/copilot*
+.kilocode
+.qoder
+.qwen
+.roo
+.trae
+.windsurf
