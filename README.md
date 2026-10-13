@@ -1,3 +1,15 @@
+---
+title: AI Skin Specialist
+emoji: 🩺
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 6.19.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # AI Skin Specialist
 
 AI Skin Specialist is a Gradio-based consultation assistant that accepts a patient voice description plus a skin image or video, transcribes the patient audio, sends the visual/text context to an AI model, and returns both a written and spoken doctor-style response.
